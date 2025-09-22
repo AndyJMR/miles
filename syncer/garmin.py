@@ -15,14 +15,14 @@ import cloudscraper
 import garth
 import httpx
 
-GITHUB_WORKFLOW_ID = "65380959"
+GITHUB_WORKFLOW_ID = "191317745"
 
 GARMIN_USERNAME = os.getenv("GARMIN_USERNAME")
 GARMIN_PASSWORD = os.getenv("GARMIN_PASSWORD")
 GITHUB_TOKEN = os.getenv("GH_TOKEN")
 
 GITHUB_WORKFLOW_URL = (
-    "https://api.github.com/repos/naosense/miles/actions/workflows/%s/dispatches"
+    "https://api.github.com/repos/AndyJMR/miles/actions/workflows/%s/dispatches"
     % GITHUB_WORKFLOW_ID
 )
 
