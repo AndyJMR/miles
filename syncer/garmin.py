@@ -21,6 +21,8 @@ GARMIN_USERNAME = os.getenv("GARMIN_USERNAME")
 GARMIN_PASSWORD = os.getenv("GARMIN_PASSWORD")
 GITHUB_TOKEN = os.getenv("GH_TOKEN")
 
+logger.info(f"GITHUB_TOKEN: {GITHUB_TOKEN}")
+
 GITHUB_WORKFLOW_URL = (
     "https://api.github.com/repos/AndyJMR/miles/actions/workflows/%s/dispatches"
     % GITHUB_WORKFLOW_ID
