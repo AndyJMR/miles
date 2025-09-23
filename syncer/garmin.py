@@ -15,7 +15,7 @@ import cloudscraper
 import garth
 import httpx
 
-GITHUB_WORKFLOW_ID = "191317745"
+GITHUB_WORKFLOW_ID = "191317743"
 
 GARMIN_USERNAME = os.getenv("GARMIN_USERNAME")
 GARMIN_PASSWORD = os.getenv("GARMIN_PASSWORD")
